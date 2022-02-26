@@ -1,0 +1,27 @@
+{
+  "name": "sample",
+  "version": "1.0.0",
+  "description": "'Practising Backend coding'",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "backend",
+    "coding",
+    "practising"
+  ],
+  "author": "Syed",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express.js": "^1.0.0",
+    "nedb": "^1.8.0",
+    "node-fetch": "^2.6.7",
+    "node.js": "0.0.1-security"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

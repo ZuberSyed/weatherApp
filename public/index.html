@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        <title>WeatherApplications</title>
+        <link rel="stylesheet" href="style.css" >
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="title">Weather Application</h1>
+            <div class="userInput">
+                <input type="text" name="city" placeholder="Enter city" class="cityName"/>
+                <button class="get" aria-pressed="true">get</button>
+            </div>
+            <div class="card">
+                <div class="cardData">
+                    <div class="iconDeg">
+                        <img class="icon"/>
+                        <h3 class="degrees"></h3> 
+                    </div>
+                    <p class="text"></p>                                      
+                </div> 
+                <div class="cardData">
+                     <h3 class="region"></h3>
+                     <h4 class="week"></h4>
+                     <p class="card-item" id="precip"></p>
+                    <p class="card-item"  id="humidityPer"></p>
+                    <p class="card-item" id="windPer"></p>
+                 </div>
+            </div>
+            <div id="checkins">
+                
+            </div>
+            </div>
+        <div class="sidebar">
+                <a href="#checkins" class="sidebar-items">checkIns</a>
+                <a href="" class="sidebar-items">graphs</a>
+                <a href="#" class="sidebar-items">news</a>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
